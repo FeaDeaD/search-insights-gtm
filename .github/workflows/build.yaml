@@ -27,6 +27,7 @@ jobs:
           node-version-file: '.nvmrc'
           cache: 'yarn'
       - run: yarn install
+      - run: yarn set version self
       - run: yarn build
       - uses: ./.github/actions/git-status
         id: changes
