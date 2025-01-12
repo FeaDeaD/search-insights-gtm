@@ -9,6 +9,7 @@ jobs:
         with:
           node-version: 23.6
       - run: corepack enable
+      - run: yarn upgrade
       - run: yarn set version self
       - run: yarn install --immutable
       - run: yarn install -g -U @lhci/cli@0.14.x
