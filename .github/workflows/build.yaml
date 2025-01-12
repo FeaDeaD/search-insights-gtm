@@ -26,8 +26,8 @@ jobs:
         with:
           node-version-file: '.nvmrc'
           cache: 'yarn'
-      - run: yarn install --immutable --immutable-cache
       - run: yarn set version self
+      - run: yarn install --immutable --immutable-cache
       - run: yarn build
       - uses: ./.github/actions/git-status
         id: changes
