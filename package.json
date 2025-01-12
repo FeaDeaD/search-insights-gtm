@@ -11,7 +11,8 @@
     "build": "yarn tsc && yarn prettier build -w && node scripts/build.js && rimraf build",
     "release": "shipjs prepare",
     "dev": "nodemon scripts/build.js",
-    "start": "yarn run dev"
+    "start": "yarn run dev",
+    "self": "yarn set version self"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
@@ -25,5 +26,5 @@
     "typescript": "^5.7.2",
     "yaml": "^2.4.1"
   },
-  "packageManager": "yarn@4.6.0"
+  "packageManager": "yarn@4.3.0"
 }
