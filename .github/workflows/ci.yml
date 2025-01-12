@@ -8,6 +8,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 23
-      - run: npm install && npm install -g @lhci/cli@0.14.x
+      - run: npm install && npm install -g -U @lhci/cli@0.14.x
+      - run: npm audit fix
       - run: npm run build
       - run: lhci autorun
