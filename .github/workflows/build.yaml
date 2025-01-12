@@ -22,6 +22,8 @@ jobs:
           ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ secrets.GITHUB_TOKEN }}
       - run: corepack enable
+      - run: yarn set version self
+      - run: yarn explain peer-requirements
       - uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
