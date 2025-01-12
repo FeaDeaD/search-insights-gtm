@@ -1,5 +1,7 @@
 # Search Insights for Google Tag Manager (GTM)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/97b7f4ee284c4360a2c1a0eeee9555e4)](https://app.codacy.com/gh/FeaDeaD/search-insights-gtm?utm_source=github.com&utm_medium=referral&utm_content=FeaDeaD/search-insights-gtm&utm_campaign=Badge_Grade)
+
 Google Tag Manager connector for Algolia Search Insights.
 
 ## Documentation
