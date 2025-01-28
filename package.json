@@ -24,7 +24,7 @@
     "shelljs": "^0.8.5",
     "shipjs": "^0.27.0",
     "typescript": "^5.7.2",
-    "yaml": "^2.4.1"
+    "yaml": "^2.7.0"
   },
   "packageManager": "yarn@4.3.0"
 }
