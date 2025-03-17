@@ -1093,6 +1093,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fast-glob@npm:^3.3.2":
+  version: 3.3.3
+  resolution: "fast-glob@npm:3.3.3"
+  dependencies:
+    "@nodelib/fs.stat": ^2.0.2
+    "@nodelib/fs.walk": ^1.2.3
+    glob-parent: ^5.1.2
+    merge2: ^1.3.0
+    micromatch: ^4.0.8
+  checksum: 8/0704d7b85c0305fd2cef37777337dfa26230fdd072dce9fb5c82a4b03156f3ffb8ed3e636033e65d45d2a5805a4e475825369a27404c0307f2db0c8eb3366fbd
+  languageName: node
+  linkType: hard
+
 "fastq@npm:^1.6.0":
   version: 1.17.1
   resolution: "fastq@npm:1.17.1"
@@ -2015,7 +2028,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^4.0.4":
+"micromatch@npm:^4.0.4, micromatch@npm:^4.0.8":
   version: 4.0.8
   resolution: "micromatch@npm:4.0.8"
   dependencies:
@@ -2983,7 +2996,7 @@ __metadata:
     prettier: 3.5.0
     rimraf: ^6.0.1
     search-insights: 2.17.3
-    shelljs: ^0.8.5
+    shelljs: ^0.9.0
     shipjs: ^0.27.0
     typescript: ^5.7.3
     yaml: ^2.7.0
@@ -3103,7 +3116,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shelljs@npm:0.8.5, shelljs@npm:^0.8.5":
+"shelljs@npm:0.8.5":
   version: 0.8.5
   resolution: "shelljs@npm:0.8.5"
   dependencies:
@@ -3113,6 +3126,20 @@ __metadata:
   bin:
     shjs: bin/shjs
   checksum: feb25289a12e4bcd04c40ddfab51aff98a3729f5c2602d5b1a1b95f6819ec7804ac8147ebd8d9a85dfab69d501bcf92d7acef03247320f51c1552cec8d8e2382
+  languageName: node
+  linkType: hard
+
+"shelljs@npm:^0.9.0":
+  version: 0.9.1
+  resolution: "shelljs@npm:0.9.1"
+  dependencies:
+    execa: ^1.0.0
+    fast-glob: ^3.3.2
+    interpret: ^1.0.0
+    rechoir: ^0.6.2
+  bin:
+    shjs: bin/shjs
+  checksum: 8/8e4945d0a7b314be264e3e239f8110c4ca1f9f170ec723ec9df671f565f11b370511bd5eac35ed022c0746a0a29518e7dfeaf754d7d87a6f1ed171f44d439087
   languageName: node
   linkType: hard
 
